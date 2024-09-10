@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon"/>
+         <!-- LIBRERY -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <title>Tienda de objetos</title>
+        <!-- Bootstraps 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="../style/tienda.css">
+        <!-- JS -->
+        <script src="../js/index.js"></script>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <div class="container-header">
+            <header class="header">
+                <nav class="nav">
+                    <img src="../img/Fortnite.svg" alt="logo">
+                    <ul class="ul">                       
+                        <li class="li"><a href="#">Descubrir</a></li>
+                        <li class="li"><a href="#">Mi biblioteca</a></li>
+                        <li class="li"><a href="#">Crear</a></li>
+                        <li class="li"><a href="#">Tienda de objetos</a></li>
+                        <li class="li"><a href="#">Pase De Batalla</a></li>
+                        <li class="li"><a href="./club.html">Club</a></li>
+                    </ul>
+                        <box-icon name='globe' color='#ffffff' ></box-icon>
+                    <div class="buttons">
+                        <a class="gray" href="#">Iniciar Sesión</a>
+                        <a class="yellow" href="#">Descargar</a>
+                    </div>
+                </nav>
+            </header>
+            <!-- Container - Store -->
+            <div class="container-store">
+                <div class="store">
+                    <div class="container-description-store">
+                        <div class="description-store">
+                            <h1>Tienda de objetos</h1>
+                            <div class="games">
+                                <svg viewBox="0 0 20 20" class="w-[1em] h-[1em] inline-block text-lg" aria-hidden="true" data-testid="EpicGamesShieldIcon"><g><g clip-path="url(#clip0_13417_28280)"><path d="M7.80873 12.9443L7.56641 13.5502H8.04854L7.80873 12.9443Z" fill="#fff"></path><path d="M9.25413 6.67261V4.90492C9.25413 4.62353 9.12245 4.49316 8.84941 4.49316H8.4043V7.08437H8.84941C9.12287 7.08437 9.25413 6.95401 9.25413 6.67261Z" fill="#fff"></path><path d="M16.4683 1.25H3.53108C2.47006 1.25 2.08301 1.63687 2.08301 2.68525V15.4641C2.08301 15.6286 2.11246 15.9243 2.16589 16.0509C2.21932 16.1775 2.26896 16.2813 2.36783 16.3737C2.47006 16.469 2.64676 16.5681 2.73174 16.607L9.58969 19.5006C9.71591 19.5542 9.85432 19.5838 9.99946 19.5838C10.145 19.5838 10.2834 19.5542 10.4092 19.5006L17.2676 16.6065C17.3526 16.5677 17.5293 16.4686 17.6315 16.3732C17.7304 16.2808 17.78 16.1775 17.8335 16.0505C17.8869 15.9239 17.9163 15.6282 17.9163 15.4637V2.68525C17.9163 1.63687 17.5293 1.25 16.4683 1.25ZM10.8257 3.54926H11.9086V10.5791H10.8257V3.54926ZM10.8817 12.2599H11.5111V14.3904H10.9183V13.1665L10.3684 14.0006H10.3562L9.8093 13.1728V14.3904H9.22578V12.2599H9.85516L10.368 13.0847L10.8817 12.2599ZM7.32166 3.54926H9.02174C9.90228 3.54926 10.3373 3.98085 10.3373 4.85499V6.72308C10.3373 7.5968 9.90228 8.02839 9.02174 8.02839H8.40456V10.5795H7.32166V3.54926ZM4.36997 3.54926H6.77853V4.52339H5.45288V6.51214H6.72804V7.48627H5.45288V9.60539H6.79872V10.5795H4.36997V3.54926ZM6.42177 14.1065C6.30691 14.1997 6.17187 14.2782 6.0162 14.341C5.86054 14.4039 5.68469 14.4355 5.48779 14.4355C5.31993 14.4355 5.16469 14.4081 5.02249 14.3537C4.87987 14.2988 4.75703 14.2229 4.65227 14.1254C4.54793 14.028 4.4659 13.912 4.40658 13.777C4.34726 13.6424 4.31781 13.4943 4.31781 13.3344V13.3281C4.31781 13.172 4.34684 13.0264 4.40531 12.8927C4.46379 12.759 4.54415 12.6417 4.64638 12.5413C4.74903 12.4409 4.87104 12.3624 5.01324 12.3054C5.15544 12.2489 5.30941 12.2202 5.47517 12.2202C5.66575 12.2202 5.82983 12.2476 5.96824 12.3021C6.10624 12.3569 6.23287 12.4328 6.34772 12.5303L5.99769 12.9471C5.91986 12.8822 5.84035 12.8324 5.75957 12.7982C5.6788 12.7636 5.58498 12.7463 5.47854 12.7463C5.40071 12.7463 5.32877 12.7615 5.26187 12.7919C5.1954 12.8222 5.13777 12.864 5.08854 12.9167C5.03932 12.9695 5.00062 13.0315 4.97201 13.1024C4.9434 13.1732 4.9291 13.2496 4.9291 13.3306V13.3369C4.9291 13.4222 4.9434 13.5015 4.97201 13.574C5.00062 13.647 5.04142 13.7095 5.09317 13.7614C5.14534 13.8132 5.20676 13.8537 5.27744 13.8833C5.34812 13.9124 5.42637 13.9276 5.51262 13.9276C5.65187 13.9276 5.7663 13.8985 5.85676 13.8394V13.5808H5.4331V13.1471H6.42177V14.1065ZM6.61108 14.3904L7.52696 12.2443H8.10123L9.01669 14.3904H8.37806L8.22113 14.0098H7.39192L7.23836 14.3904H6.61108ZM12.6133 16.7483C12.6104 16.755 12.6062 16.7609 12.6011 16.766C12.5961 16.7711 12.5902 16.7753 12.5835 16.7778L10.0811 17.8338C10.0542 17.8452 10.0247 17.8515 9.99399 17.8515C9.96328 17.8515 9.93341 17.8452 9.90691 17.8338L7.42389 16.7778C7.41716 16.7749 7.41127 16.7706 7.40622 16.766C7.40117 16.7609 7.39697 16.755 7.39402 16.7483C7.39108 16.7415 7.38981 16.7344 7.38981 16.7263C7.38981 16.7188 7.3915 16.7112 7.39402 16.7044C7.39697 16.6977 7.40117 16.6918 7.40622 16.6867C7.41127 16.6816 7.41716 16.6774 7.42389 16.6745C7.43062 16.6715 7.43777 16.6702 7.44577 16.6702H12.5616C12.5691 16.6702 12.5767 16.6719 12.5835 16.6745C12.5902 16.6774 12.5961 16.6812 12.6011 16.6867C12.6062 16.6918 12.6104 16.6977 12.6133 16.7044C12.6163 16.7112 12.6175 16.7183 12.6175 16.7263C12.6175 16.7339 12.6158 16.7415 12.6133 16.7483ZM13.6542 14.3904H11.9095V12.2599H13.6386V12.7623H12.4989V13.0851H13.5309V13.5508H12.4989V13.8888H13.6537V14.3904H13.6542ZM12.4808 9.33369V4.79424C12.4808 3.92052 12.9162 3.48851 13.7964 3.48851H14.3227C15.2032 3.48851 15.6281 3.91039 15.6281 4.78411V6.2202H14.5658V4.84444C14.5658 4.56304 14.4341 4.43268 14.1611 4.43268H13.9789C13.6954 4.43268 13.5641 4.56304 13.5641 4.84444V9.28349C13.5641 9.56489 13.6958 9.69525 13.9789 9.69525H14.1813C14.4543 9.69525 14.586 9.56489 14.586 9.28349V7.69679H15.6487V9.33369C15.6487 10.2074 15.2137 10.6394 14.3332 10.6394H13.7968C12.9162 10.6394 12.4808 10.2078 12.4808 9.33369ZM15.6895 13.7348C15.6895 13.8445 15.6685 13.9419 15.6264 14.0271C15.5844 14.1124 15.5255 14.1849 15.4497 14.2448C15.374 14.3047 15.2831 14.3503 15.1763 14.3819C15.0698 14.4136 14.9512 14.4292 14.8199 14.4292C14.6272 14.4292 14.4447 14.4001 14.2717 14.341C14.0988 14.282 13.9457 14.1938 13.8128 14.0761L14.1443 13.6833C14.3593 13.8537 14.5915 13.939 14.8414 13.939C14.9213 13.939 14.9823 13.9263 15.024 13.901C15.066 13.8757 15.0871 13.8398 15.0871 13.793V13.7867C15.0871 13.7643 15.0816 13.7445 15.0715 13.7276C15.0614 13.7103 15.0425 13.6939 15.0147 13.6774C14.987 13.6609 14.9499 13.6453 14.9045 13.6301C14.8582 13.615 14.7989 13.5993 14.7249 13.5829C14.61 13.5563 14.5036 13.5276 14.4055 13.4964C14.3075 13.4648 14.2217 13.4243 14.1489 13.3745C14.0761 13.3247 14.0189 13.2627 13.9768 13.1889C13.9348 13.115 13.9137 13.0226 13.9137 12.9134V12.907C13.9137 12.8079 13.9327 12.7164 13.9705 12.6328C14.0084 12.5493 14.0639 12.4776 14.1363 12.4168C14.2086 12.3561 14.2966 12.3088 14.3988 12.2751C14.5015 12.2417 14.6172 12.2249 14.7459 12.2249C14.9302 12.2249 15.0947 12.2485 15.239 12.2966C15.3833 12.3442 15.5137 12.4147 15.6306 12.5084L15.3328 12.9252C15.2347 12.856 15.1338 12.8041 15.0303 12.7682C14.9268 12.7328 14.8271 12.7147 14.7312 12.7147C14.6596 12.7147 14.6054 12.7282 14.57 12.7543C14.5343 12.7805 14.5162 12.8134 14.5162 12.8518V12.8581C14.5162 12.8826 14.5217 12.9037 14.533 12.9218C14.5444 12.9399 14.5637 12.9568 14.5915 12.972C14.6193 12.9872 14.6571 13.0028 14.7051 13.0176C14.753 13.0328 14.814 13.0484 14.8877 13.0648C15.0105 13.091 15.1216 13.1222 15.2209 13.1576C15.3202 13.1931 15.4043 13.2365 15.4746 13.2867C15.544 13.3374 15.5974 13.3985 15.634 13.4711C15.671 13.5432 15.6895 13.6289 15.6895 13.7284V13.7348Z" fill="#fff"></path></g><defs><clipPath id="clip0_13417_28280"><rect width="15.8333" height="18.3333" fill="currentcolor" transform="translate(2.08301 1.25)"></rect></clipPath></defs></g></svg>
+                                <span>Posible gracias a la Epic Games Store.</span>
+                            </div>
+                            <p>
+                                Te damos la bienvenida a la Tienda de objetos, donde puedes ver y comprar objetos actuales. Para obtener toda la información sobre la moneda del juego, <a href="#">echa un vistazo a tu saldo de monedas V.</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="three-stripe">
+                        <h1>
+                            Three Stripe Squad
+                        </h1>
+                    </div>
+                    <div class="container-store-1">
+                        <div class="store-1">
+                            <div class="description-store-1">
+                                <span>
+                                    5,000 monedas y de descuento
+                                </span>
+                            </div>
+                            <figure>
+                                <img src="../img/store-1.png" alt="store-1">
+                            </figure>
+                            <div class="description-store-1-bottom">
+                                <p>
+                                    Lote Tripulación trefoil
+                                </p>
+                                <div class="price-store-1">
+                                    <p>
+                                        2,500
+                                    </p>
+                                    <p class="tachado">
+                                        7,500
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="store-2">
+                            <figure>
+                                <img src="../img/store-2.png" alt="store-2">
+                            </figure>
+                            <div class="description-store-2">
+                                <h2>
+                                    Rival relajada
+                                </h2>
+                                <p>
+                                    1,500
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-store-2">
+                        <div class="store-3 skin-1">
+                            <figure>
+                                <img src="../img/store-3.png" alt="store-3">
+                            </figure>
+                            <div class="description-store-3">
+                                <h2>Vengadora vanguardista</h2>
+                                <span>1,500</span>
+                            </div>
+                        </div>
+                        <div class="store-4 skin-1">
+                            <figure>
+                                <img src="../img/store-4.png" alt="store-4">
+                            </figure>
+                            <div class="description-store-4">
+                                <h2>Tiradora triunfal</h2>
+                                <span>1,500</span>
+                            </div>
+                        </div>
+                        <div class="store-5 skin-1">
+                            <figure>
+                                <img src="../img/store-5.png" alt="store-5">
+                            </figure>
+                            <div class="description-store-5">
+                                <h2>Artillera glanmurosa</h2>
+                                <span>1,500</span>
+                            </div>
+                        </div>
+                        <div class="store-6 skin-1">
+                            <figure>
+                                <img src="../img/store-6.png" alt="store-6">
+                            </figure>
+                            <div class="description-store-6">
+                                <h2>Corredora serena</h2>
+                                <span>1,500</span>
+                            </div>
+                        </div>
+                        <div class="store-7 skin-1">
+                            <figure>
+                                <img src="../img/store-7.png" alt="store-7">
+                            </figure>
+                            <div class="description-store-7">
+                                <h2>Lote Equipamiento de Tripulación trefoil</h2>
+                                <span>1,000</span>
+                            </div>
+                        </div>
+                        <div class="store-8 skin-1">
+                            <figure>
+                                <img src="../img/store-8.png" alt="store-8">
+                            </figure>
+                            <div class="description-store-8">
+                                <h2>Circuito de tres franjas</h2>
+                                <span>800</span>
+                            </div>
+                        </div>
+                        <div class="store-9 skin-1">
+                            <figure>
+                                <img src="../img/store-9.png" alt="store-9">
+                            </figure>
+                            <div class="description-store-9">
+                                <h2>Suela segadora</h2>
+                                <span>800</span>
+                            </div>
+                        </div>
+                        <div class="store-10 skin-1">
+                            <figure>
+                                <img src="../img/store-10.png" alt="store-10">
+                            </figure>
+                            <div class="description-store-10">
+                                <h2>Mochila adijolote</h2>
+                                <span>400</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Container - Store - 2 -->
+                    <div class="container-store-crystal">
+                        <div class="description-locker">
+                            <h1>Crystalmolly's locker</h1>
+                        </div>
+                        <div class="container-store-locker">
+                            <div class="store-locker">
+                                <div class="description-store-locker">
+                                    <span>
+                                        5,000 monedas y de descuento
+                                    </span>
+                                </div>
+                                <figure>
+                                    <img src="../img/store-11.png" alt="store-1">
+                                </figure>
+                                <div class="description-store-locker-bottom">
+                                    <p>
+                                        Lote Tripulación trefoil
+                                    </p>
+                                    <div class="price-store-locker">
+                                        <p>
+                                            2,500
+                                        </p>
+                                        <p class="tachado">
+                                            7,500
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="store-crystal">
+                                <figure>
+                                    <img src="../img/store-12.png" alt="store-2">
+                                </figure>
+                                <div class="description-store-2">
+                                    <h2>
+                                        Rival relajada
+                                    </h2>
+                                    <p>
+                                        1,500
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-store-molly">
+                            <div class="store-3 skin-molly">
+                                <figure>
+                                    <img src="../img/store-13.png" alt="store-3">
+                                </figure>
+                                <div class="description-store-11">
+                                    <h2>Golpeadores galácticos</h2>
+                                    <span>1,500</span>
+                                </div>
+                            </div>
+                            <div class="store-4 skin-molly">
+                                <figure>
+                                    <img src="../img/store-14.png" alt="store-4">
+                                </figure>
+                                <div class="description-store-12">
+                                    <h2>Extremadamente feliz</h2>
+                                    <span>1,500</span>
+                                </div>
+                            </div>
+                            <div class="store-4 skin-molly">
+                                <figure>
+                                    <img src="../img/store-15.png" alt="store-4">
+                                </figure>
+                                <div class="description-store-13">
+                                    <h2>Petunia</h2>
+                                    <span>1,500</span>
+                                </div>
+                            </div>
+                            <div class="store-4 skin-molly">
+                                <figure>
+                                    <img src="../img/store-16.png" alt="store-4">
+                                </figure>
+                                <div class="description-store-14">
+                                    <h2>Cereza cumpleañera</h2>
+                                    <span>1,500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Container - Store - 3 -->
+                    <div class="container-meo">
+                        <div class="description-meo">
+                            <h1>Meowtooth</h1>
+                        </div>
+                        <div class="meowtooth">
+                            <div class="description-store-meo">
+                                <span>
+                                    1,100 monedas v de descuento 
+                                </span>
+                            </div>
+                            <figure>
+                                <img src="../img/store-17.png" alt="">
+                            </figure>
+                            <div class="description-store-meo-bottom">
+                                <p>
+                                    Lote Dientes de gato
+                                </p>
+                                <div class="price-store-meo">
+                                    <p>
+                                        2,300
+                                    </p>
+                                    <p class="tachado">
+                                        3,400
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="meowtooth">
+                            <figure>
+                                <img src="../img/store-18.png" alt="">
+                            </figure>
+                            <div class="description-store-meo-bottom">
+                                <p>
+                                    Dientes de gato
+                                </p>
+                                <div class="price-store-meo">
+                                    <p>
+                                        1,300
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-store-meo">
+                            <div class="store-3 skin-meo">
+                                <figure>
+                                    <img src="../img/store-20.png" alt="store-3">
+                                </figure>
+                                <div class="description-store-15">
+                                    <h2>Golpeadores galácticos</h2>
+                                    <span>1,500</span>
+                                </div>
+                            </div>
+                            <div class="store-4 skin-meo">
+                                <figure>
+                                    <img src="../img/store-21.png" alt="store-4">
+                                </figure>
+                                <div class="description-store-16">
+                                    <h2>Extremadamente feliz</h2>
+                                    <span>1,500</span>
+                                </div>
+                            </div>
+                            <div class="store-4 skin-meo">
+                                <figure>
+                                    <img src="../img/store-22.png" alt="store-4">
+                                </figure>
+                                <div class="description-store-17">
+                                    <h2>Petunia</h2>
+                                    <span>1,500</span>
+                                </div>
+                            </div>
+                            <div class="store-4 skin-meo">
+                                <figure>
+                                    <img src="../img/store-23.png" alt="store-4">
+                                </figure>
+                                <div class="description-store-18">
+                                    <h2>Cereza cumpleañera</h2>
+                                    <span>1,500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="container-footer">
+                <div class="container-net">
+                    <div class="networks">
+                        <box-icon name='facebook-square' type='logo' color='#cccccc' ></box-icon>
+                        <box-icon name='twitter' type='logo' color='#cccccc' ></box-icon>
+                        <box-icon name='twitch' type='logo' color='#cccccc' ></box-icon>
+                        <box-icon name='youtube' type='logo' color='#cccccc' ></box-icon>
+                        <box-icon name='instagram-alt' type='logo' color='#cccccc' ></box-icon>
+                        <box-icon name='snapchat' type='logo' color='#cccccc' ></box-icon>
+                    </div>
+                    <div class="home">
+                        <svg viewBox="0 0 13 13" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.58376 2.73002L2.37551 6.93827L1.66841 6.23116L6.7102 1.18937L7.06375 0.835814L7.41731 
+                            1.18937L12.6326 6.40469L11.9255 7.11179L7.5846 2.77087L7.73721 11.7916L6.73735 11.8085L6.58376 2.73002Z"></path></svg>
+                        <p>
+                            Volver al principio
+                        </p>
+                    </div>
+                </div>
+                <div class="container-description-footer">
+                    <div class="description-footer">
+                        <div class="links">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Pase de batalla</a></li>
+                            <li><a href="#">Obtener Fortnite</a></li>
+                            <li><a href="#">Noticias</a></li>
+                        </div>
+                        <div class="links">
+                            <li><a href="#">PREGUNTAS FRECUENTES</a></li>
+                            <li><a href="#">Cluf</a></li>
+                            <li><a href="#">Competitivo</a></li>
+                            <li><a href="#">Tarjeta de monedas V</a></li>
+                            <li><a href="#">Devolver a cancelar compra</a></li>
+                        </div>
+                        <div class="links">
+                            <li><a href="#">Ayuda</a></li>
+                            <li><a href="#">Reglamento de la comunidad</a></li>
+                            <li><a href="#">Directrices para socios</a></li>
+                            <li><a href="#">Cosplay</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="description-author">
+                        <p>
+                            © 2024, Epic Games, Inc. Epic, Epic Games, el logo de Epic Games, Fortnite, el logo de Fortnite, Unreal, Unreal Engine 4 y UE4 son marcas comerciales o marcas registradas de Epic Games, Inc. en los Estados Unidos de América y en otros lugares. Todos los derechos reservados.
+                        </p>
+                    </div>
+                </div>
+                <div class="container-terminos">
+                    <div class="terminos">
+                        <li><a href="#">Términos de servicio</a></li>
+                        <li><a href="#">Poltitica de privacidad</a></li>
+                        <li><a href="#">Seguridad y protección</a></li>
+                    </div>
+                    <div class="plays">
+                        <box-icon name='play-store' type='logo' color='#cccccc' ></box-icon>
+                        <box-icon name='message-dots' type='solid' color='#cccccc' ></box-icon>
+                        <box-icon name='world' color='#cccccc' ></box-icon>
+                        <box-icon name='apple' type='logo' color='#cccccc' ></box-icon>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Author - Luis David Gil -->
+            <div class="theluis">
+                <p>Luis Gil Cabarcas</p>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <!-- ScrollReveal  -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </body>
+</html>
